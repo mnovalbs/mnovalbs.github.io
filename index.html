@@ -1,0 +1,587 @@
+<!doctype html>
+<html amp lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+  <!-- Primary Meta Tags -->
+  <title>Noval Bintang - Frontend Engineer</title>
+  <meta name="title" content="Noval Bintang - Frontend Engineer">
+  <meta name="description"
+    content="Frontend Engineer skilled in Javascript, React, Vue, Node, CSS, and Git. Interested in Progressive Web Application, Web3, and dApp (decentralized app).">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mnovalbs.com">
+  <meta property="og:title" content="Noval Bintang - Frontend Engineer">
+  <meta property="og:description"
+    content="Frontend Engineer skilled in Javascript, React, Vue, Node, CSS, and Git. Interested in Progressive Web Application, Web3, and dApp (decentralized app).">
+  <meta property="og:image" content="/assets/images/thumbnail-web.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.mnovalbs.com">
+  <meta property="twitter:title" content="Noval Bintang - Frontend Engineer">
+  <meta property="twitter:description"
+    content="Frontend Engineer skilled in Javascript, React, Vue, Node, CSS, and Git. Interested in Progressive Web Application, Web3, and dApp (decentralized app).">
+  <meta property="twitter:image" content="/assets/images/thumbnail-web.png">
+
+  <link rel="canonical" href="http://localhost:3031/#development=1" />
+  <link rel="shortcut icon" href="/assets/images/logo.png" />
+
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+
+  <style amp-custom>
+    body {
+      padding: 30px;
+      color: #1A202C;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      line-height: 1.6rem;
+    }
+
+    a {
+      color: #304979;
+    }
+
+    #container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    #short-profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    #photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      overflow: hidden;
+    }
+
+    #name {
+      color: #ffc402;
+      margin-bottom: 0;
+      line-height: 2.6rem;
+    }
+
+    #tagline {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: #304979;
+      font-weight: 500;
+    }
+
+    #sections {
+      margin: 40px 0;
+    }
+
+    .section {
+      display: flex;
+      margin-bottom: 40px;
+    }
+
+    .section h4 {
+      margin-top: 0;
+      margin-bottom: 0rem;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .no-margin {
+      margin: 0;
+    }
+
+    .section-title {
+      width: 250px;
+    }
+
+    .section-label {
+      margin-top: 0;
+      text-transform: uppercase;
+    }
+
+    .section-description {
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+
+    .section-logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    .section-title-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-list {
+      margin-left: 60px;
+      padding-left: 20px;
+    }
+
+    .section-list li {
+      margin-bottom: 6px;
+    }
+
+    .section-list ul {
+      padding-left: 20px;
+    }
+
+    .section-description-list {
+      margin-bottom: 40px;
+    }
+
+    .project {
+      display: flex;
+      align-items: center;
+      background-color: #dce7fa;
+      border: 1px solid #dce7fa;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .project-thumbnail {
+      width: 180px;
+      height: 180px;
+    }
+
+    .project-description {
+      flex-grow: 1;
+      flex-basis: 0;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    .project-description h4 {
+      color: #304979;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .project-description p {
+      margin: 10px 0;
+    }
+
+    .btn-visit {
+      display: inline-block;
+      background-color: #304979;
+      color: #fff;
+      padding: 4px 20px;
+      text-decoration: none;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    .color-gojek {
+      color: #009c46;
+    }
+
+    .color-bukalapak {
+      color: #e02455;
+    }
+
+    .color-pergi {
+      color: #655c93;
+    }
+
+    .color-name {
+      color: #333;
+    }
+
+    .social-column {
+      padding: 3px 0 0 40px;
+    }
+
+    @media screen and (max-width: 768px) {
+      body {
+        padding: 20px;
+      }
+
+      .section {
+        flex-direction: column;
+      }
+
+      .section-list {
+        margin-left: 0;
+        padding-left: 24px;
+      }
+
+      .project {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="short-profile">
+      <div id="photo">
+        <amp-img src="/assets/images/photo.webp" width="150" height="150" layout="responsive"></amp-img>
+      </div>
+      <h1 id="name"><span class="color-name">Noval Bintang</span></h1>
+      <h2 id="tagline">Frontend Engineer</h2>
+    </div>
+
+    <div id="sections">
+
+      <!-- Profile Section Start -->
+      <div class="section">
+        <div class="section-title">
+          <h3 class="section-label">Profile</h3>
+        </div>
+        <div class="section-description">
+          Experienced Frontend Engineer with a demonstrated history of working in the internet industry. Skilled in
+          Javascript, React, Vue, Node, Express JS, CSS Framework, and Git. Strong engineering professional graduated
+          from Diponegoro University. Interested in Progressive Web Application, dApps (decentralized app), and Web3.
+        </div>
+      </div>
+      <!-- Profile Section End -->
+
+      <!-- Spcial Media Start -->
+      <div class="section">
+        <div class="section-title">
+          <h3 class="section-label">Find Me</h3>
+        </div>
+        <div class="section-description">
+          <table>
+            <tr>
+              <td>LinkedIn</td>
+              <td class="social-column">
+                <a href="https://linkedin.com/in/mnovalbs" target="_blank">/in/mnovalbs</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Github</td>
+              <td class="social-column">
+                <a href="https://github.com/mnovalbs" target="_blank">mnovalbs</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Twitter</td>
+              <td class="social-column">
+                <a href="https://twitter.com/mnovalbs" target="_blank">@mnovalbs</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Instagram</td>
+              <td class="social-column">
+                <a href="https://instagram.com/novalbintangs" target="_blank">@novalbintangs</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- Spcial Media End -->
+
+      <!-- Experience Section Start -->
+      <div class="section">
+        <div class="section-title">
+          <h3 class="section-label">
+            Experience
+          </h3>
+        </div>
+        <div class="section-description">
+
+          <div class="section-description-list">
+            <div class="section-title-logo">
+              <div class="section-logo">
+                <amp-img src="/assets/images/logo-gojek.png" width="150" height="150" layout="responsive" alt="Gojek">
+                </amp-img>
+              </div>
+              <div>
+                <h4 class="color-gojek">Gojek (MokaPOS) - Frontend Engineer</h4>
+                <div>Jun 2020 - Present</div>
+              </div>
+            </div>
+
+            <ul class="section-list">
+              <li><a href="https://mygostore.com" target="_blank"><b>GoStore</b></a></li>
+              <ul>
+                <li>Develop GoStore from scratch. Build with NextJS.
+                </li>
+                <li>Improve GoStore page transition performance by ~65%</li>
+                <li>Handle GoStore SEO for some pages (merchant detail, outlet detail, product detail)</li>
+                <li>Improve GoStore SEO for product list page, so search engine can crawl all products. Products indexed
+                  by Google increased ~200% after deployment.</li>
+                <li>Handle GoStore user authentication (Facebook login and guest login)</li>
+                <li>Develop an email generator (component-based), so that all developers can easily create their own
+                  emails, without worrying about styling and managing components; and can preview how they will look in
+                  real email clients</li>
+                <li>And many more</li>
+              </ul>
+              <li><a href="https://mokapos.com" target="_blank"><b>MokaPOS Backoffice</b></a></li>
+              <ul>
+                <li>Develop web mobile version for item library</li>
+                <li>Improvement on item modifier to integrate with hubster</li>
+              </ul>
+            </ul>
+          </div>
+
+          <div class="section-description-list">
+            <div class="section-title-logo">
+              <div class="section-logo">
+                <amp-img src="/assets/images/logo-bukalapak.png" width="150" height="150" layout="responsive"
+                  alt="Bukalapak">
+                </amp-img>
+              </div>
+              <div>
+                <h4 class="color-bukalapak">Bukalapak - Frontend Engineer</h4>
+                <div>Jul 2018 - May 2020</div>
+              </div>
+            </div>
+
+            <ul class="section-list">
+              <li>Develop BukaIklan Dashboard for user so they can manage their product advertisement in Facebook &
+                Google with Vue, jQuery and haml.</li>
+              <li>Maintain tracker needed for Google Tag Manager and Facebook Pixel with Vanilla JS</li>
+              <li>Develop, maintain and managing centralized tracker (javascript internal package) needed for GTM and
+                Facebook Pixel so it can be managed easily with Typescript</li>
+              <li>Develop some landing page and admin dashboard for BukaNonton feature with VueJS</li>
+              <li>Maintaining landing page and admin dashboard for Potong Harga feature with VueJS</li>
+            </ul>
+          </div>
+
+          <div class="section-description-list">
+            <div class="section-title-logo">
+              <div class="section-logo">
+                <amp-img src="/assets/images/logo-pergi.jpeg" width="150" height="150" layout="responsive"
+                  alt="Pergi.com">
+                </amp-img>
+              </div>
+              <div>
+                <h4 class="color-pergi">Pergi.com - Web Developer</h4>
+                <div>Jan 2017 - Feb 2017</div>
+              </div>
+            </div>
+
+            <ul class="section-list">
+              <li>Create simple flight online booking (from search, booking and checkout)</li>
+              <li>Create search and flight list via Pergi.com API</li>
+              <li>Create checkout page with mock data and send the invoice to the user via email (with pdf attached)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Experience Section End -->
+
+      <!-- Education Section Start -->
+      <div class="section">
+        <div class="section-title">
+          <h3 class="section-label">
+            Education
+          </h3>
+        </div>
+        <div class="section-description">
+
+          <div class="section-description-list">
+            <div class="section-title-logo">
+              <div class="section-logo">
+                <amp-img src="/assets/images/logo-undip.jpeg" width="150" height="150" layout="responsive" alt="Gojek">
+                </amp-img>
+              </div>
+              <div>
+                <h4>Diponegoro University - Bachelor of Computer Science</h4>
+                <div>2014 - 2018</div>
+              </div>
+            </div>
+
+            <ul class="section-list">
+              <li>Member of Divisi Diklat HMIF (Himpunan Mahasiswa Informatika) UNDIP</li>
+              <li>GPA: 3.46 of 4</li>
+              <li>Thesis: <a href="http://eprints.undip.ac.id/65811/1/Laporan_24010314130100_1.pdf"
+                  target="_blank">Web-Based Machine Learning Framework Application</a></li>
+            </ul>
+          </div>
+
+          <div class="section-description-list">
+            <div class="section-title-logo">
+              <div class="section-logo">
+                <amp-img src="/assets/images/logo-sma7.jpeg" width="150" height="150" layout="responsive" alt="Gojek">
+                </amp-img>
+              </div>
+              <div>
+                <h4>SMA Negeri 7 Tangerang - Science</h4>
+                <div>2010 - 2014</div>
+              </div>
+            </div>
+
+            <ul class="section-list">
+              <li>Building and Leading First IT Community</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <!-- Education Section End -->
+
+      <!-- Education Section Start -->
+      <div class="section">
+        <div class="section-title">
+          <h3 class="section-label">
+            Recent Projects
+          </h3>
+        </div>
+        <div class="section-description">
+
+          <div class="project">
+            <div class="project-thumbnail">
+              <amp-img src="/assets/images/thumbnail-tampil.png" width="200" height="200" layout="responsive"
+                alt="Tampil Online">
+              </amp-img>
+            </div>
+            <div class="project-description">
+              <h4>Tampil Online</h4>
+              <p>Easy website builder with many template choices</p>
+              <p>This site built with NextJS, Fastify, and GraphQL.</p>
+
+              <a href="https://www.tampil.online/" target="_blank" class="btn-visit">Visit Website</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-thumbnail">
+              <amp-img src="/assets/images/thumbnail-aatinaa.png" width="200" height="200" layout="responsive"
+                alt="Aatinaa">
+              </amp-img>
+            </div>
+            <div class="project-description">
+              <h4>Aatinaa</h4>
+              <p>Aatinaa Enterprise LLC is a financial publisher, educational, and trading entity.</p>
+              <p>This site built with VueJS and NodeJS.</p>
+
+              <a href="https://aatinaa.co" target="_blank" class="btn-visit">Visit Website</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-thumbnail">
+              <amp-img src="/assets/images/thumbnail-istiqlal.png" width="200" height="200" layout="responsive"
+                alt="Istiqlal Houston">
+              </amp-img>
+            </div>
+            <div class="project-description">
+              <h4>Istiqlal Houston</h4>
+              <p>Features: News, Campaign, Donation, Live Streaming, etc.</p>
+              <p>This site built with ReactJS and NodeJS.</p>
+
+              <a href="https://app.istiqlalhouston.org/" target="_blank" class="btn-visit">Visit Website</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-thumbnail">
+              <amp-img src="/assets/images/thumbnail-iamc.png" width="200" height="200" layout="responsive"
+                alt="American Muallaf Baitulmaal">
+              </amp-img>
+            </div>
+            <div class="project-description">
+              <h4>American Muallaf Baitulmaal</h4>
+              <p>Features: News, Campaign, Donation, Live Streaming, etc.</p>
+              <p>This site built with ReactJS and NodeJS.</p>
+
+              <a href="https://app.muallafbaitulmaal.org/" target="_blank" class="btn-visit">Visit Website</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-description">
+              <h4>Web3 Social Fund</h4>
+              <p>Features: Create account, create funding, list funding, help / donate funding, withdraw, list
+                transaction</p>
+              <p>This site built with ReactJS, Smart Contract: Solidity, and deployed in BNB main net.</p>
+              <p><small>Contract: <a href="https://bscscan.com/address/0x487f4004efa67cb47da947dac8171d26179ac768"
+                    target="_blank">0x487f4004efa67cb47da947dac8171d26179ac768</a></small></p>
+
+              <a href="https://fund.optimize.id/" target="_blank" class="btn-visit">Visit Website</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Education Section End -->
+
+    </div>
+  </div>
+</body>
+
+</html>
